@@ -4,23 +4,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @font-face {
+        font-family: 'Times New Roman';
+        src: url('fonts/Blue Screen Personal Use.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      body { font-family: 'Ti', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+    </style>
 </head>
-<body class="bg-gray-100 text-gray-800">
+<body class="bg-gray-100 text-gray-800"></body>
 <header class="bg-[#075E54] fixed w-full z-10 shadow">
   <nav class="container mx-auto flex items-center justify-between p-4">
 
-    <div class="flex items-center space-x-3">
-      
-      <img 
-        src="WhatsApp Image 2026-02-02 at 21.29.48.jpeg" 
-        alt="Photo Iba Fall"
-        class="w-12 h-12 rounded-full border-2 border-white object-cover"
-      >
-
-      
-      <h1 class="text-white font-semibold text-lg">
-        Iba Fall
-      </h1>
+    <div class="text-white text-2xl font-bold">
+      IBA FALL
     </div>
 
     <ul class="hidden md:flex space-x-6 text-white text-sm">
@@ -35,7 +35,14 @@
 
   </nav>
 </header>
-    <section id="Accueil" class="pt-32 pb-20 bg-gradient-to-r from-[#0F52BA] to-[#0FFFC1] text-white text-center">
+    <section id="Accueil" class="pt-32 pb-20 text-white text-center" style="background-image: url('image/46ca43cc-31ab-4da9-afdb-1a991f6f23a9.jpg'); background-size: cover; background-position: center;">
+    <div>
+   <img 
+        src="WhatsApp Image 2026-02-02 at 21.29.48.jpeg" 
+        alt="Photo Iba Fall"
+        class="mx-auto h-56 rounded-full border-2 border-white object-cover"
+      >
+</div>
     <h2 class="text-xl md:text-7xl font-bold mb-4 ">Hello C'est IBA FALL</h2>
     <h3 class="text-xl md:text-xl font-bold mb-4 ">DEVELOPPEUR</h3>
     <p class="text-lg mb-6">Passionné par le web moderne et les interfaces élégantes</p>
@@ -130,12 +137,13 @@
     <h2 class="text-3xl font-bold text-center mb-10">Projets</h2>
     <div class="grid md:grid-cols-2 gap-6">
       <div class="bg-white p-6 rounded shadow">
-        <h3 class="font-bold text-xl">Projet 1 : Site Immobilier Academique</h3>
+        <h3 class="font-bold text-xl">Projet 1 : Site Immobilier (IbaImmo)</h3>
         <p class="text-gray-600 mt-2">HTML / CSS / Tailwind</p>
         <p class="text-gray-600 mt-2">HTML / CSS / JavaScript</p>
         <p class="text-gray-600 mt-2">HTML / CSS / PHP</p>
         <p class="text-gray-600 mt-2">HTML / CSS / Java</p>
         <p class="text-gray-600 mt-2">HTML / CSS / Bootstrap</p>
+         
       </div>
       <div class="bg-white p-6 rounded shadow">
         <h3 class="font-bold text-xl">Projet 2 : Site Personnel</h3>
@@ -144,6 +152,13 @@
         <p class="text-gray-600 mt-2">Base de doonées</p>
         <p class="text-gray-600 mt-2">MYSQL</p>
       </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h3 class="font-bold text-xl">Projet 3 : Gestion de banquaire</h3>
+        <p class="text-gray-600 mt-2">Java</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+          <h3 class="font-bold text-xl">Projet 4 : Gestion des resultats d'un election presidentielle</h3>
+          <p class="text-gray-600 mt-2">Language C</p>
     </div>
   </section>
   <section id="contact" class="bg-gray-400 text-black-400 py-20">
@@ -200,18 +215,35 @@
     </div>
   </section>
   <footer class="bg-black text-gray-400 text-center py-4">
-    <p>© 2026 IBA FALL — Tous droits réservés</p>
+    <p>© 2026 IBA FALL </p>
       <h4 class="mt-2 text-gray-300">Rejoignez moi sur!</h4>
        <div class="flex justify-center gap-6">
+    <a href="77-599-17-02" target="_blank">
+      <img src="image/tel.webp" alt="watshap"
+        class="h-8 w-8 hover:scale-110 transition">
+    </a>
+    <a href="ibaf47342@gmail.com" target="_blank">
+      <img src="image/gmail.webp" alt="watshap"
+        class="h-8 w-8 hover:scale-110 transition">
+    </a>    
     <a href="https://wa.me/221775991702" target="_blank">
       <img src="image/WHATSAP.png" alt="watshap"
         class="h-8 w-8 hover:scale-110 transition">
     </a>
-    <a href="Iba bu khalifa" target="_blank">
+    <a href="https://www.tiktok.com/@princeibeau2023?_r=1&_t=ZS-93rImZNVuGv" target="_blank">
       <img src="image/TIKTOK.png" alt="tiktok"
+        class="h-8 w-8 hover:scale-110 transition">
+    </a>
+     <a href="https://www.instagram.com/ibeau_prince04?igsh=bDk2Y2xzZGoxM2dl&utm_source=qr" target="_blank">
+      <img src="image/insta.jpeg" alt="tiktok"
+        class="h-8 w-8 hover:scale-110 transition">
+    </a>
+     <a href="https://www.snapchat.com/add/ibeau_prince04" target="_blank">
+      <img src="image/snap.jpeg" alt="snapchat"
         class="h-8 w-8 hover:scale-110 transition">
     </a>
   </div>
   </footer>
+ 
 </body>
 </html>
